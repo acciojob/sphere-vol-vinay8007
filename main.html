@@ -5,12 +5,12 @@
 </head>
 <body>
   <h2>Volume of a Sphere</h2>
-  <form onsubmit="return volume_sphere();">
+  <form onsubmit="return volume_sphere(event);">
     <label for="radius"><b>Radius:</b></label><br>
-    <input type="text" id="radius" name="radius"><br>
+    <input type="text" id="radius" name="radius"><br><br>
     
     <label for="volume"><b>Volume:</b></label><br>
-    <input type="text" id="volume" name="volume" readonly><br>
+    <input type="text" id="volume" name="volume" readonly><br><br>
     
     <input type="submit" value="Calculate">
   </form>
